@@ -11,4 +11,4 @@ module.exports=[{id:"XWaQXcbk0",name:"Картофель, запеченный �
 },{}],"Focm":[function(require,module,exports) {
 "use strict";require("./sass/main.scss");var e=r(require("./menuCards.hbs")),t=r(require("./menu.json"));function r(e){return e&&e.__esModule?e:{default:e}}const s={LIGHT:"light-theme",DARK:"dark-theme"},c=document.querySelector("body"),a=document.querySelector(".theme-switch__toggle"),o=document.querySelector(".menu");o.insertAdjacentHTML("beforeend",(0,e.default)(t.default)),"dark"===localStorage.getItem("theme")&&(c.classList.toggle(`${s.DARK}`),a.checked=!0),a.addEventListener("change",()=>{c.classList.toggle(`${s.DARK}`),a.checked?localStorage.setItem("theme","dark"):localStorage.setItem("theme","light")});
 },{"./sass/main.scss":"clu1","./menuCards.hbs":"HJN7","./menu.json":"mA8c"}]},{},["Focm"], null)
-//# sourceMappingURL=/goit-js-hw-10-food-service/src.dc80e550.js.map
+//# sourceMappingURL=/hw10js/src.6a80ced8.js.map
